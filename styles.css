@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.images {
+    display: grid;
+    margin-left: 25%;
+    margin-right: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.image {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
